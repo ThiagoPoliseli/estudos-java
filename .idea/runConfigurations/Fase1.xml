@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" type="Application" factoryName="Application" name="Fase1">
+    <option name="MAIN_CLASS_NAME" value="Fase1.Main" />
+    <module name="estudos-java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

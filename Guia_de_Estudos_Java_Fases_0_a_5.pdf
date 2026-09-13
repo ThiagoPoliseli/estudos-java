@@ -1,0 +1,1528 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (pt-BR) >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R] /Count 14 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1306 >>
+stream
+q 0.97 0.985 0.992 rg 0 0 612 792 re f Q
+q 0.09 0.23 0.39 rg 0 724 612 68 re f Q
+q 0.19 0.63 0.66 rg 56 623 78 4 re f Q
+0.8 0.9 0.94 rg
+BT /F2 9.2 Tf 1 0 0 1 56 682 Tm (MATERIAL DE REVISAO E APRESENTACAO) Tj ET
+0.09 0.23 0.39 rg
+BT /F2 32 Tf 1 0 0 1 56 568 Tm (Guia de Estudos) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 29 Tf 1 0 0 1 56 526 Tm (Java - Fases 0 a 5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 15 Tf 1 0 0 1 56 475 Tm (O que foi construido, como cada parte funciona e como) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 15 Tf 1 0 0 1 56 454 Tm (explicar a evolucao do projeto.) Tj ET
+q 0.19 0.63 0.66 RG 2 w 56 425 m 556 425 l S Q
+0.14 0.2 0.27 rg
+BT /F1 10.5 Tf 1 0 0 1 56 385 Tm (Consolidado a partir dos seis PDFs de fase, do codigo-fonte, dos READMEs,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 10.5 Tf 1 0 0 1 56 370 Tm (do pom.xml e das configuracoes de execucao do IntelliJ.) Tj ET
+q 0.92 0.96 0.97 rg 56 142 500 96 re f Q
+q 0.19 0.63 0.66 rg 56 142 4 96 re f Q
+0.09 0.23 0.39 rg
+BT /F2 10.5 Tf 1 0 0 1 72 207 Tm (Do primeiro projeto no IntelliJ a API Spring Boot, com orientacao a) Tj ET
+0.09 0.23 0.39 rg
+BT /F2 10.5 Tf 1 0 0 1 72 192 Tm (objetos, Maven, arquitetura em camadas, JPA, H2 e Lombok.) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 9 Tf 1 0 0 1 56 82 Tm (Material para estudar, demonstrar e responder perguntas sobre cada etapa.) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 5382 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 709 Tm (Como usar este guia) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 690 m 558 690 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 671 Tm (A trilha conta uma hist\363ria: primeiro o programa \351 criado e executado; depois o c\363digo) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 656.8 Tm (ganha conceitos de orienta\347\343o a objetos; em seguida, o projeto passa a gerenciar) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 642.6 Tm (bibliotecas, separa responsabilidades e termina com uma API e redu\347\343o de c\363digo) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 628.4 Tm (repetitivo.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 605.2 Tm (Para estudar, leia uma fase por vez e abra a classe indicada no IntelliJ. Para apresentar, use) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 592.7 Tm (os resumos de fala e demonstre os programas na ordem sugerida. O c\363digo \351 a evid\352ncia do que foi) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 580.2 Tm (implementado; os PDFs explicam conceitos e exerc\355cios que nem sempre foram todos codificados.) Tj ET
+q 0.91 0.94 0.97 rg 54 545.7 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 553.7 Tm (Fase | Quest\343o respondida | Resultado no projeto) Tj ET
+q 0.975 0.98 0.985 rg 54 499.5 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 531.7 Tm (Fase: 0 - IntelliJ | Quest\343o respondida: Como criar, organizar e executar um programa) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 520.3 Tm (Java? | Resultado no projeto: Projeto Maven com Java 21 e demonstra\347\343o de polimorfismo) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 508.9 Tm (com animais.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 498.5 m 558 498.5 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 488.5 Tm (Fase: 1 - Orienta\347\343o a objetos | Quest\343o respondida: Como representar comportamentos e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 477.1 Tm (responsabilidades diferentes? | Resultado no projeto: Heran\347a, classes abstratas,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 465.7 Tm (interfaces, sobrecarga e sobrescri\347\343o.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 455.3 m 558 455.3 l S Q
+q 0.975 0.98 0.985 rg 54 424.5 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 445.3 Tm (Fase: 2 - Maven | Quest\343o respondida: Como obter bibliotecas e padronizar o build? |) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 433.9 Tm (Resultado no projeto: Depend\352ncia Commons Lang declarada no pom.xml e usada no c\363digo.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 423.5 m 558 423.5 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 413.5 Tm (Fase: 3 - MVC em Java puro | Quest\343o respondida: Como separar entrada, regra de neg\363cio) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 402.1 Tm (e dados? | Resultado no projeto: Model, Controller, Service e Repository com) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 390.7 Tm (armazenamento em mem\363ria.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 380.3 m 558 380.3 l S Q
+q 0.975 0.98 0.985 rg 54 338.1 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 370.3 Tm (Fase: 4 - Spring Boot | Quest\343o respondida: Como transformar a arquitetura em uma API) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 358.9 Tm (HTTP gerenciada? | Resultado no projeto: POST e GET de clientes, Spring Data JPA e H2 em) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 347.5 Tm (mem\363ria.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 337.1 m 558 337.1 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 327.1 Tm (Fase: 5 - Lombok | Quest\343o respondida: Como reduzir c\363digo repetitivo mantendo clareza?) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 315.7 Tm (| Resultado no projeto: Getters, setters, construtores, Builder e entidades) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 304.3 Tm (Cliente/Pedido.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 293.9 m 558 293.9 l S Q
+q 0.93 0.97 0.975 rg 54 231.7 504 55.2 re f Q
+q 0.19 0.63 0.66 rg 54 231.7 3 55.2 re f Q
+0.19 0.63 0.66 rg
+BT /F2 7.2 Tf 1 0 0 1 64 273.9 Tm (PONTO-CHAVE) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 261.9 Tm (Ideia central: cada fase reutiliza o aprendizado anterior. MVC ensina a separa\347\343o; Spring) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 249.5 Tm (automatiza a montagem das camadas; Lombok reduz o boilerplate que j\341 foi escrito) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 237.1 Tm (manualmente.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 213.7 Tm (Vocabul\341rio de leitura) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 194.5 Tm (Classe \351 a defini\347\343o; objeto \351 uma inst\342ncia em mem\363ria. Depend\352ncia \351 algo que uma classe) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 182 Tm (precisa para cumprir seu papel. Build \351 o processo de compilar, testar e empacotar o projeto.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 169.5 Tm (Endpoint \351 um caminho HTTP atendido pela API.) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (2 / 14) Tj ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 5613 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 709 Tm (Fase 0 - Criar e executar o projeto) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 690 m 558 690 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 671 Tm (Objetivo: preparar o ambiente e comprovar que o ciclo b\341sico funciona: criar uma classe,) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 656.8 Tm (executar o m\351todo main e observar a sa\355da.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 628.6 Tm (O que o PDF ensina) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 609.4 Tm (O material parte do IntelliJ IDEA Community, Java 21 e Maven. Ao criar um projeto, selecionam-se) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 596.9 Tm (Java, Maven e o JDK 21. O IntelliJ gera a estrutura inicial e sincroniza o Maven, o que pode) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 584.4 Tm (demorar na primeira execu\347\343o porque as depend\352ncias s\343o baixadas.) Tj ET
+q 0.91 0.94 0.97 rg 54 549.9 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 557.9 Tm (Parte | Fun\347\343o) Tj ET
+q 0.975 0.98 0.985 rg 54 526.5 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 535.9 Tm (Parte: src/main/java | Fun\347\343o: C\363digo Java da aplica\347\343o.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 525.5 m 558 525.5 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 515.5 Tm (Parte: src/main/resources | Fun\347\343o: Configura\347\365es e arquivos que n\343o s\343o c\363digo Java.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 505.1 m 558 505.1 l S Q
+q 0.975 0.98 0.985 rg 54 485.7 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 495.1 Tm (Parte: src/test/java | Fun\347\343o: Local previsto para testes automatizados.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 484.7 m 558 484.7 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 474.7 Tm (Parte: pom.xml | Fun\347\343o: Configura\347\343o do projeto e das depend\352ncias Maven.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 464.3 m 558 464.3 l S Q
+q 0.975 0.98 0.985 rg 54 444.9 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 454.3 Tm (Parte: target | Fun\347\343o: Sa\355da gerada pelo build; cont\351m classes compiladas e pacotes.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 443.9 m 558 443.9 l S Q
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 431.9 Tm (A primeira classe tem o m\351todo public static void main\(String[] args\), que \351 o ponto de entrada) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 419.4 Tm (do programa. Uma instru\347\343o como System.out.println escreve uma linha no painel Run. A mensagem) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 406.9 Tm ("Process finished with exit code 0" indica que o processo terminou sem erro.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 383.4 Tm (O que existe neste reposit\363rio) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 364.2 Tm (Al\351m da estrutura inicial, a fase j\341 cont\351m um exemplo execut\341vel de comportamento polim\363rfico:) Tj ET
+q 0.955 0.965 0.974 rg 54 264.6 504 84.1 re f Q
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 337.7 Tm (Animal animal = new Animal\(\);) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 327.4 Tm (Animal cachorro = new Cachorro\(\);) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 317.1 Tm (Animal gato = new Gato\(\);) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 306.8 Tm () Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 296.5 Tm (animal.emitirSom\(\);) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 286.2 Tm (cachorro.emitirSom\(\);) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 275.9 Tm (gato.emitirSom\(\);) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 253.6 Tm (Animal implementa o som gen\351rico. Cachorro e Gato herdam de Animal e redefinem emitirSom\(\). Por) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 241.1 Tm (isso as tr\352s vari\341veis podem ser tratadas como Animal, mas cada objeto imprime a resposta) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 228.6 Tm (correspondente ao seu tipo real: som gen\351rico, latido e miado.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 210.1 Tm (O c\363digo est\341 em src/main/java/Fase0. A configura\347\343o chamada "Main" no IntelliJ executa) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 197.6 Tm (Fase0.Main. H\341 tamb\351m org.example.Main, que \351 o exemplo inicial gerado pela IDE; ele n\343o \351 o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 185.1 Tm (ponto de entrada configurado para empacotar o Spring Boot.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 161.6 Tm (Como explicar esta fase) Tj ET
+q 0.93 0.96 0.985 rg 54 79.8 504 67.6 re f Q
+q 0.14 0.36 0.55 rg 54 79.8 3 67.6 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 134.4 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 122.4 Tm ("Na fase inicial configurei um projeto Maven com Java 21 no IntelliJ, entendi onde ficam) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 110 Tm (c\363digo, recursos e arquivos gerados e executei uma classe pelo m\351todo main. O exemplo de) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 97.6 Tm (animais j\341 mostra que uma vari\341vel pode ter o tipo geral Animal enquanto o objeto) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 85.2 Tm (concreto escolhe o comportamento executado.") Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (3 / 14) Tj ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 5840 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 711 Tm (O que demonstrar) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 690.8 Tm (Abrir Fase0.Main.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 690.8 Tm (1.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 674.2 Tm (Apontar a classe-base e as duas subclasses.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 674.2 Tm (2.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 657.6 Tm (Executar a configura\347\343o "Main" e relacionar cada linha impressa com a implementa\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 645 Tm (chamada.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 657.6 Tm (3.) Tj ET
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 622.4 Tm (Fase 1 - Orienta\347\343o a objetos) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 603.4 m 558 603.4 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 584.4 Tm (Objetivo: modelar varia\347\365es sem duplicar comportamento e entender quando usar heran\347a,) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 570.2 Tm (abstra\347\343o, interfaces, sobrecarga e sobrescri\347\343o.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 542 Tm (Como o c\363digo foi organizado) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 522.8 Tm (Os exerc\355cios foram separados em pacotes dentro de Fase1. Classes com nomes iguais, como Animal) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 510.3 Tm (e Funcionario, podem coexistir porque pertencem a pacotes distintos. Cada pacote destaca um) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 497.8 Tm (t\363pico, enquanto Fase1.Main integra v\341rios deles.) Tj ET
+q 0.91 0.94 0.97 rg 54 463.3 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 471.3 Tm (Pacote | Exemplos e foco) Tj ET
+q 0.975 0.98 0.985 rg 54 428.5 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 449.3 Tm (Pacote: Heranca | Exemplos e foco: Animal, Cachorro, Gato; funcion\341rios com sal\341rios) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 437.9 Tm (fixos; polimorfismo.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 427.5 m 558 427.5 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 417.5 Tm (Pacote: Abstracao | Exemplos e foco: Funcionario abstrato, gerente/vendedor, Forma,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 406.1 Tm (c\355rculo e ret\342ngulo.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 395.7 m 558 395.7 l S Q
+q 0.975 0.98 0.985 rg 54 364.9 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 385.7 Tm (Pacote: Interface | Exemplos e foco: Contratos Descontavel, Taxavel, Auditavel e a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 374.3 Tm (classe Produto.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 363.9 m 558 363.9 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 353.9 Tm (Pacote: Sobrecarga | Exemplos e foco: Vers\365es de somar e validar com par\342metros) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 342.5 Tm (diferentes.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 332.1 m 558 332.1 l S Q
+q 0.975 0.98 0.985 rg 54 301.3 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 322.1 Tm (Pacote: Sobrescricao | Exemplos e foco: Programa que percorre funcion\341rios abstratos e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 310.7 Tm (chama os m\351todos redefinidos.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 300.3 m 558 300.3 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 283.3 Tm (Heran\347a e polimorfismo) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 264.1 Tm (extends indica que a subclasse reaproveita a estrutura ou o comportamento da superclasse. No) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 251.6 Tm (exemplo de animais, a superclasse fornece a opera\347\343o comum; cada subclasse troca o resultado.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 239.1 Tm (Polimorfismo \351 a escolha da implementa\347\343o de acordo com o objeto real durante a execu\347\343o.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 220.6 Tm (O PDF tamb\351m prop\365e a hierarquia Funcionario -> Gerente/Vendedor. O primeiro exemplo usa sal\341rios) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 208.1 Tm (fixos; mais adiante o c\363digo refina o modelo com sal\341rio-base, vendas e b\364nus. A anota\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 195.6 Tm (@Override torna expl\355cita a inten\347\343o de redefinir um m\351todo e permite ao compilador apontar uma) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 183.1 Tm (assinatura escrita incorretamente.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 159.6 Tm (Abstra\347\343o: um contrato incompleto com estado comum) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 140.4 Tm (Forma \351 abstrata e declara calcularArea\(\) sem fornecer uma f\363rmula. Circulo calcula pi x raio\262;) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 127.9 Tm (Retangulo calcula largura x altura. O m\351todo concreto imprimirArea\(\) chama o m\351todo abstrato,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 115.4 Tm (ent\343o funciona para qualquer forma concreta. N\343o se instancia Forma diretamente.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 96.9 Tm (Funcionario tamb\351m \351 abstrata. Guarda o nome, valida que n\343o esteja vazio e exige que as) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 84.4 Tm (subclasses implementem calcularSalario\(\). Isso compartilha estado e uma regra geral, deixando a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 71.9 Tm (f\363rmula espec\355fica para cada funcion\341rio.) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (4 / 14) Tj ET
+
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 6132 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 711 Tm (Interface: capacidade que v\341rias classes podem assumir) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 691.8 Tm (Uma interface declara um contrato sem impor uma hierarquia de classes. Produto implementa tr\352s) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 679.3 Tm (capacidades: dar desconto, calcular imposto e gerar log de auditoria. Como Auditavel fornece) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 666.8 Tm (gerarLogAuditoria\(\) com default, Produto herda essa implementa\347\343o sem precisar reescrev\352-la.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 648.3 Tm (Na implementa\347\343o, o pre\347o inicial precisa ser n\343o negativo e o percentual de desconto deve estar) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 635.8 Tm (entre 0 e 100. O desconto altera o pre\347o armazenado. Depois, o imposto \351 12% do pre\347o j\341) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 623.3 Tm (descontado. Exemplo: R$ 100, desconto de 10% -> pre\347o R$ 90; imposto -> R$ 10,80. O imposto n\343o \351) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 610.8 Tm (calculado sobre os R$ 100 originais.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 592.3 Tm (Bonificavel exige calcularBonus\(\) e fornece um m\351todo padr\343o calcularBonusAnual\(\), que) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 579.8 Tm (multiplica o b\364nus mensal por 12. Uma classe pode implementar mais de uma interface; isso) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 567.3 Tm (permite combinar capacidades sem heran\347a m\372ltipla de classes.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 543.8 Tm (Sobrecarga e sobrescri\347\343o n\343o s\343o a mesma coisa) Tj ET
+q 0.91 0.94 0.97 rg 54 508.6 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 516.6 Tm (Conceito | O que muda | Exemplo do projeto) Tj ET
+q 0.975 0.98 0.985 rg 54 451 504 54.6 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 494.6 Tm (Conceito: Sobrecarga \(overload\) | O que muda: Mesmo nome; par\342metros diferentes. O) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 483.2 Tm (compilador escolhe pela quantidade ou pelos tipos recebidos. | Exemplo do projeto:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 471.8 Tm (somar\(int,int\), somar\(double,double\), somar\(int,int,int\); vers\365es de validar e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 460.4 Tm (exibirResumo.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 450 m 558 450 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 440 Tm (Conceito: Sobrescri\347\343o \(override\) | O que muda: Subclasse fornece implementa\347\343o pr\363pria) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 428.6 Tm (com a mesma assinatura da superclasse. | Exemplo do projeto: Cachorro.emitirSom\(\),) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 417.2 Tm (Gerente.calcularSalario\(\) e Vendedor.calcularBonus\(\).) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 406.8 m 558 406.8 l S Q
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 394.8 Tm (O tipo de retorno sozinho n\343o cria uma sobrecarga. Dois m\351todos com mesmo nome e mesmos) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 382.3 Tm (par\342metros s\343o a mesma assinatura para essa regra; mudar apenas int para double no retorno n\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 369.8 Tm (resolve.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 346.3 Tm (O exemplo integrado de funcion\341rios) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 327.1 Tm (Fase1.Main cria uma lista declarada como List<Funcionario>, com uma inst\342ncia de Gerente e outra) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 314.6 Tm (de Vendedor. Os valores s\343o:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 295.1 Tm (Ana: sal\341rio-base R$ 8.000; b\364nus mensal de 10% = R$ 800; b\364nus anual = R$ 9.600.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 295.1 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 278.5 Tm (Bruno: sal\341rio-base R$ 2.500 + 5% de R$ 20.000 em vendas = R$ 3.500; b\364nus mensal de 2% das) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 265.9 Tm (vendas = R$ 400; b\364nus anual = R$ 4.800.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 278.5 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 250.3 Tm (O m\351todo exibirResumo\(Funcionario\) mostra nome e sal\341rio. A vers\343o sobrecarregada com um boolean) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 237.8 Tm (chama a primeira e, quando solicitado, verifica se o funcion\341rio implementa Bonificavel para) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 225.3 Tm (mostrar o b\364nus anual. Assim o exemplo junta abstra\347\343o, heran\347a, interface, overload, override e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 212.8 Tm (polimorfismo.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 189.3 Tm (Como explicar esta fase) Tj ET
+q 0.93 0.96 0.985 rg 54 95.1 504 80 re f Q
+q 0.14 0.36 0.55 rg 54 95.1 3 80 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 162.1 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 150.1 Tm ("A classe abstrata define o que todos os funcion\341rios compartilham e exige que cada tipo) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 137.7 Tm (calcule seu pr\363prio sal\341rio. As interfaces descrevem capacidades como bonifica\347\343o,) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 125.3 Tm (desconto e auditoria. Sobrecarga escolhe uma opera\347\343o pelos par\342metros; sobrescri\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 112.9 Tm (troca uma implementa\347\343o herdada. A lista usa o tipo geral Funcionario, mas executa as) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 100.5 Tm (regras de Gerente e Vendedor.") Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (5 / 14) Tj ET
+
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 5661 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 709 Tm (Fase 2 - Maven e depend\352ncias) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 690 m 558 690 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 671 Tm (Objetivo: deixar que uma ferramenta resolva bibliotecas, vers\365es, compila\347\343o e) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 656.8 Tm (empacotamento de maneira repet\355vel.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 628.6 Tm (O problema que o Maven resolve) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 609.4 Tm (Sem Maven, cada pessoa poderia baixar arquivos JAR manualmente, adicion\341-los ao classpath e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 596.9 Tm (repetir a configura\347\343o em cada m\341quina. No Maven, o projeto declara a biblioteca e sua vers\343o no) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 584.4 Tm (pom.xml. O Maven baixa tamb\351m as depend\352ncias transitivas e guarda os arquivos no reposit\363rio) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 571.9 Tm (local .m2/repository.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 553.4 Tm (A primeira compila\347\343o pode ser mais lenta porque precisa baixar os artefatos. Nas pr\363ximas, o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 540.9 Tm (cache local evita downloads repetidos. .m2 cont\351m depend\352ncias do ambiente do desenvolvedor; n\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 528.4 Tm (\351 o local do c\363digo-fonte do projeto.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 504.9 Tm (Como ler as coordenadas do projeto) Tj ET
+q 0.91 0.94 0.97 rg 54 469.7 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 477.7 Tm (Campo | Valor do projeto | Significado) Tj ET
+q 0.975 0.98 0.985 rg 54 434.9 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 455.7 Tm (Campo: groupId | Valor do projeto: org.example | Significado: Identificador do grupo que) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 444.3 Tm (publica o artefato.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 433.9 m 558 433.9 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 423.9 Tm (Campo: artifactId | Valor do projeto: estudos-java | Significado: Nome do artefato.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 413.5 m 558 413.5 l S Q
+q 0.975 0.98 0.985 rg 54 382.7 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 403.5 Tm (Campo: version | Valor do projeto: 1.0-SNAPSHOT | Significado: Vers\343o ainda em) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 392.1 Tm (desenvolvimento.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 381.7 m 558 381.7 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 371.7 Tm (Campo: Java | Valor do projeto: 21 | Significado: Vers\343o configurada para compila\347\343o e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 360.3 Tm (destino.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 349.9 m 558 349.9 l S Q
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 337.9 Tm (Para uma depend\352ncia, groupId + artifactId + version identificam exatamente qual biblioteca ser\341) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 325.4 Tm (usada. No exerc\355cio, foi adicionada org.apache.commons:commons-lang3:3.14.0. O pacote usa) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 312.9 Tm (StringUtils.isBlank para demonstrar que n\343o basta o JAR estar baixado: a classe tamb\351m precisa) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 300.4 Tm (estar dispon\355vel no classpath. Texto vazio ou s\363 com espa\347os \351 considerado em branco; "texto") Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 287.9 Tm (n\343o \351.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 264.4 Tm (Depend\352ncias e escopos) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 245.2 Tm (Uma depend\352ncia transitiva \351 uma biblioteca necess\341ria a outra que o Maven resolve) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 232.7 Tm (automaticamente. Por exemplo, Spring Web traz componentes como servidor embutido e serializa\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 220.2 Tm (JSON, embora n\343o sejam declarados um a um.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 200.7 Tm (compile \351 o padr\343o e deixa a biblioteca dispon\355vel ao compilar e executar.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 200.7 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 184.1 Tm (test limita a biblioteca ao ciclo de testes.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 184.1 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 167.5 Tm (provided deixa a depend\352ncia dispon\355vel para compila\347\343o quando o ambiente final deve) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 154.9 Tm (fornec\352-la. Neste projeto Lombok usa provided.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 167.5 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 138.3 Tm (runtime \351 usado pelo H2: a aplica\347\343o precisa dele ao executar, mas n\343o para compilar as) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 125.7 Tm (classes que usam apenas as APIs de JPA.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 138.3 Tm (-) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 105.1 Tm (Comandos e ciclo de build) Tj ET
+q 0.91 0.94 0.97 rg 54 69.9 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 77.9 Tm (Comando | Efeito) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (6 / 14) Tj ET
+
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 5840 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+q 0.975 0.98 0.985 rg 54 699.6 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 709 Tm (Comando: mvn clean | Efeito: Remove artefatos antigos de target.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 698.6 m 558 698.6 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 688.6 Tm (Comando: mvn compile | Efeito: Compila o c\363digo-fonte.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 678.2 m 558 678.2 l S Q
+q 0.975 0.98 0.985 rg 54 658.8 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 668.2 Tm (Comando: mvn test | Efeito: Executa testes automatizados configurados.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 657.8 m 558 657.8 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 647.8 Tm (Comando: mvn package | Efeito: Gera o pacote JAR/WAR em target.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 637.4 m 558 637.4 l S Q
+q 0.975 0.98 0.985 rg 54 606.6 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 627.4 Tm (Comando: mvn install | Efeito: Al\351m de empacotar, instala o artefato no reposit\363rio) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 616 Tm (Maven local.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 605.6 m 558 605.6 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 595.6 Tm (Comando: mvn clean package | Efeito: Limpa e reconstr\363i o pacote desde o in\355cio.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 585.2 m 558 585.2 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 568.2 Tm (O pom.xml deste projeto) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 549 Tm (Al\351m do Commons Lang, o arquivo atual declara Spring Boot Web 3.2.0, Spring Data JPA 3.2.0, H2) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 536.5 Tm (2.2.224 e Lombok 1.18.30. Assim, o POM documenta a evolu\347\343o das fases no mesmo projeto. O plugin) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 524 Tm (Spring Boot est\341 configurado para usar Fase4.SpringBoot.AplicacaoSpringBoot como classe) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 511.5 Tm (principal do JAR empacotado.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 493 Tm (O README da fase registra aproximadamente 17,830 segundos em uma execu\347\343o de mvn clean package.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 480.5 Tm (Esse n\372mero descreve aquela m\341quina e aquela execu\347\343o; n\343o \351 uma dura\347\343o garantida.) Tj ET
+q 0.93 0.96 0.985 rg 54 411.8 504 55.2 re f Q
+q 0.14 0.36 0.55 rg 54 411.8 3 55.2 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 454 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 442 Tm ("O Maven centraliza depend\352ncias e build no pom.xml. O projeto declara o Java 21 e a) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 429.6 Tm (biblioteca Commons Lang 3.14.0, que \351 provada pelo uso de StringUtils.isBlank. O) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 417.2 Tm (reposit\363rio .m2 \351 o cache local; target recebe as classes compiladas e o JAR.") Tj ET
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 391.8 Tm (Fase 3 - MVC em Java puro) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 372.8 m 558 372.8 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 353.8 Tm (Objetivo: entender a separa\347\343o de responsabilidades antes de deixar um framework criar e) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 339.6 Tm (conectar as classes.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 311.4 Tm (O que significa MVC neste projeto) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 292.2 Tm (MVC vem de Model, View e Controller. Em uma API sem tela, a organiza\347\343o pr\341tica se concentra em) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 279.7 Tm (Controller, Service e Repository. O Model continua representando os dados. Cada camada muda por) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 267.2 Tm (um motivo diferente:) Tj ET
+q 0.92 0.96 0.97 rg 54 226.7 504 26 re f Q
+0.14 0.36 0.55 rg
+BT /F2 10.1 Tf 1 0 0 1 68 239.7 Tm (Entrada -> Controller -> Service -> Repository -> fonte de dados) Tj ET
+q 0.91 0.94 0.97 rg 54 198.7 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 206.7 Tm (Camada | Responsabilidade | Implementa\347\343o) Tj ET
+q 0.975 0.98 0.985 rg 54 163.9 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 184.7 Tm (Camada: Model | Responsabilidade: Representar os dados do dom\355nio. | Implementa\347\343o:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 173.3 Tm (Cliente: id, nome e idade.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 162.9 m 558 162.9 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 152.9 Tm (Camada: Controller | Responsabilidade: Receber a opera\347\343o e delegar; depois devolver o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 141.5 Tm (resultado. | Implementa\347\343o: ClienteController: cadastrar, listar e buscar.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 131.1 m 558 131.1 l S Q
+q 0.975 0.98 0.985 rg 54 100.3 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 121.1 Tm (Camada: Service | Responsabilidade: Concentrar regras e decis\365es de neg\363cio. |) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 109.7 Tm (Implementa\347\343o: ClienteService: valida cliente, nome e idade m\355nima.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 99.3 m 558 99.3 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 89.3 Tm (Camada: Repository | Responsabilidade: Guardar, listar e localizar dados. |) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 77.9 Tm (Implementa\347\343o: ClienteRepository: mapa ordenado em mem\363ria.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 67.5 m 558 67.5 l S Q
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (7 / 14) Tj ET
+
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 5944 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 711 Tm (Como um cadastro percorre as camadas) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 690.8 Tm (O Controller recebe nome e idade e cria um objeto Cliente.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 690.8 Tm (1.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 674.2 Tm (Ele chama service.cadastrar\(cliente\).) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 674.2 Tm (2.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 657.6 Tm (O Service rejeita objeto nulo, nome nulo/vazio ou idade menor que 18, lan\347ando) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 645 Tm (IllegalArgumentException.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 657.6 Tm (3.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 628.4 Tm (Se os dados passam, o Repository gera um id sequencial e guarda o cliente.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 628.4 Tm (4.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 611.8 Tm (O resultado retorna pelas camadas at\351 o chamador.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 611.8 Tm (5.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 596.2 Tm (O Repository usa LinkedHashMap<Long, Cliente>, ent\343o preserva a ordem de inser\347\343o. O id \351) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 583.7 Tm (contado a partir de 1. A busca usa Optional no Repository; o Service converte aus\352ncia em null.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 571.2 Tm (listarTodos\(\) devolve uma nova lista com os valores armazenados, n\343o o pr\363prio mapa.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 547.7 Tm (Por que a valida\347\343o fica no Service) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 528.5 Tm ("Cliente precisa ter pelo menos 18 anos" \351 regra de neg\363cio. Se ela ficasse no Controller, outro) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 516 Tm (fluxo que n\343o fosse HTTP teria de copi\341-la ou poderia ignor\341-la. Colocando-a no Service,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 503.5 Tm (qualquer entrada - Controller, tarefa programada ou teste - usa a mesma regra.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 485 Tm (O projeto demonstra isso com CadastroProgramado, um segundo ponto de entrada que recebe o mesmo) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 472.5 Tm (ClienteService e cadastra sem passar pelo Controller. O Repository permanece independente de) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 460 Tm (como o cadastro come\347ou.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 436.5 Tm (O que MainMVC demonstra) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 417.3 Tm (MainMVC constr\363i as depend\352ncias manualmente: Repository, depois Service, depois Controller.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 404.8 Tm (Cadastra Ana, tenta cadastrar Bruno com 16 anos e captura a exce\347\343o, lista todos, busca o id 1 e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 392.3 Tm (demonstra o cadastro de Carla pelo fluxo programado. Ainda n\343o h\341 servidor web, JSON ou banco de) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 379.8 Tm (dados; o mapa existe somente na mem\363ria do processo.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 356.3 Tm (Como explicar esta fase) Tj ET
+q 0.93 0.96 0.985 rg 54 274.5 504 67.6 re f Q
+q 0.14 0.36 0.55 rg 54 274.5 3 67.6 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 329.1 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 317.1 Tm ("Na fase 3 eu separei dados, entrada, regras e armazenamento. O Controller encaminha; o) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 304.7 Tm (Service valida e decide; o Repository persiste. Para praticar a arquitetura sem esconder) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 292.3 Tm (os passos, montei as depend\352ncias com new. O armazenamento ainda \351 um mapa em mem\363ria, e) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 279.9 Tm (um segundo fluxo comprova que a regra pode ser reutilizada fora do Controller.") Tj ET
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 254.5 Tm (Fase 4 - API com Spring Boot) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 235.5 m 558 235.5 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 216.5 Tm (Objetivo: preservar as camadas da fase 3 e acrescentar inicializa\347\343o autom\341tica, HTTP,) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 202.3 Tm (JSON e persist\352ncia JPA.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 174.1 Tm (Como o Spring monta a aplica\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 154.9 Tm (AplicacaoSpringBoot chama SpringApplication.run e est\341 marcada com @SpringBootApplication. Essa) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 142.4 Tm (anota\347\343o combina configura\347\343o, auto-configura\347\343o e varredura de componentes. Como a classe) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 129.9 Tm (principal est\341 no pacote Fase4.SpringBoot, o Spring encontra os componentes nos subpacotes) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 117.4 Tm (Controller, Service, Repository e Model.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 98.9 Tm (As classes anotadas s\343o registradas como beans. Em vez de o main instanciar tudo manualmente, o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 86.4 Tm (Spring cria ClienteService e injeta ClienteRepository; depois injeta o Service no Controller. O) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 73.9 Tm (construtor \372nico torna essa depend\352ncia expl\355cita e ajuda testes futuros.) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (8 / 14) Tj ET
+
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 6328 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+q 0.91 0.94 0.97 rg 54 700 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 708 Tm (Anota\347\343o | Fun\347\343o | Est\341 no projeto?) Tj ET
+q 0.975 0.98 0.985 rg 54 665.2 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 686 Tm (Anota\347\343o: @SpringBootApplication | Fun\347\343o: Inicializa e configura a aplica\347\343o; habilita) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 674.6 Tm (busca dos componentes. | Est\341 no projeto?: Sim, na aplica\347\343o principal.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 664.2 m 558 664.2 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 654.2 Tm (Anota\347\343o: @RestController | Fun\347\343o: Exp\365e m\351todos HTTP e serializa retornos como dados,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 642.8 Tm (normalmente JSON. | Est\341 no projeto?: Sim, no Controller.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 632.4 m 558 632.4 l S Q
+q 0.975 0.98 0.985 rg 54 613 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 622.4 Tm (Anota\347\343o: @Service | Fun\347\343o: Identifica a camada de neg\363cio. | Est\341 no projeto?: Sim.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 612 m 558 612 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 602 Tm (Anota\347\343o: @Repository | Fun\347\343o: Marca acesso a dados; Spring Data tamb\351m cria o bean da) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 590.6 Tm (interface JPA. | Est\341 no projeto?: A interface estende JpaRepository, n\343o precisa de) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 579.2 Tm (implementa\347\343o manual.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 568.8 m 558 568.8 l S Q
+q 0.975 0.98 0.985 rg 54 538 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 558.8 Tm (Anota\347\343o: @RequestMapping | Fun\347\343o: Define o prefixo de rota. | Est\341 no projeto?: Sim:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 547.4 Tm (/clientes.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 537 m 558 537 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 527 Tm (Anota\347\343o: @PostMapping / @GetMapping | Fun\347\343o: Ligam m\351todos aos verbos de cria\347\343o e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 515.6 Tm (consulta. | Est\341 no projeto?: Sim.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 505.2 m 558 505.2 l S Q
+q 0.975 0.98 0.985 rg 54 474.4 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 495.2 Tm (Anota\347\343o: @RequestBody | Fun\347\343o: Converte o JSON recebido em objeto Java. | Est\341 no) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 483.8 Tm (projeto?: Sim, no cadastro.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 473.4 m 558 473.4 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 463.4 Tm (Anota\347\343o: @Entity, @Id, @GeneratedValue | Fun\347\343o: Mapeiam classe, chave prim\341ria e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 452 Tm (gera\347\343o de id no JPA. | Est\341 no projeto?: Sim, em Cliente.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 441.6 m 558 441.6 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 424.6 Tm (Rotas implementadas e ciclo da requisi\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 405.4 Tm (POST /clientes recebe um corpo JSON, converte-o em Cliente, passa pelo Service e salva no) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 392.9 Tm (Repository. @ResponseStatus\(HttpStatus.CREATED\) define status HTTP 201 se o m\351todo concluir com) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 380.4 Tm (sucesso. GET /clientes chama o Service e retorna a lista, que o Spring serializa como JSON.) Tj ET
+q 0.955 0.965 0.974 rg 54 291.1 504 73.8 re f Q
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 353.9 Tm (POST http://localhost:8080/clientes) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 343.6 Tm (Content-Type: application/json) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 333.3 Tm () Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 323 Tm ({"nome":"Ana","idade":25}) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 312.7 Tm () Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 302.4 Tm (GET http://localhost:8080/clientes) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 280.1 Tm (O PDF ensina tamb\351m @PathVariable para dados no caminho, como /clientes/5, e @RequestParam para) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 267.6 Tm (query string, como /clientes?nome=Ana. Esses conceitos s\343o exemplos de extens\343o: n\343o h\341 m\351todos) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 255.1 Tm (que os usem na API atual.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 236.6 Tm (O material apresenta ainda @PutMapping e @DeleteMapping, mas a implementa\347\343o efetiva tem apenas) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 224.1 Tm (POST e GET. N\343o h\341 atualiza\347\343o ou remo\347\343o implementadas.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 200.6 Tm (JPA, Repository e H2) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 181.4 Tm (Cliente \351 uma entidade JPA. O campo id \351 a chave prim\341ria e o banco gera seu valor. O construtor) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 168.9 Tm (sem argumentos protegido atende ao mecanismo de persist\352ncia; o construtor com nome e idade) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 156.4 Tm (facilita a cria\347\343o pela aplica\347\343o.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 137.9 Tm (ClienteRepository estende JpaRepository<Cliente, Long>. O Spring Data fornece opera\347\365es como) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 125.4 Tm (save e findAll sem uma classe concreta escrita \340 m\343o. O Service preserva a regra de maioridade) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 112.9 Tm (antes de salvar.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 94.4 Tm (O arquivo application.properties define H2 em mem\363ria, porta 8080, usu\341rio sa,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 81.9 Tm (ddl-auto=create-drop, exibi\347\343o de SQL e console H2 habilitado. Como o banco \351 em mem\363ria, os) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (9 / 14) Tj ET
+
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 6412 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 716 Tm (dados desaparecem quando a aplica\347\343o termina. A op\347\343o create-drop cria o esquema para a execu\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 703.5 Tm (e o remove no encerramento.) Tj ET
+q 1 0.975 0.91 rg 54 622.4 504 67.6 re f Q
+q 0.75 0.5 0.14 rg 54 622.4 3 67.6 re f Q
+0.75 0.5 0.14 rg
+BT /F2 7.2 Tf 1 0 0 1 64 677 Tm (ATENCAO) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 665 Tm (Limite atual: a regra inv\341lida lan\347a IllegalArgumentException, mas o projeto n\343o define) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 652.6 Tm (um tratamento global que a converta em resposta HTTP 400. Se essa exce\347\343o escapar, o) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 640.2 Tm (cliente pode receber erro 500. Para uma API mais completa, seria necess\341rio mapear erros) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 627.8 Tm (com um handler ou usar valida\347\343o de entrada com respostas adequadas.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 604.4 Tm (Como explicar esta fase) Tj ET
+q 0.93 0.96 0.985 rg 54 522.6 504 67.6 re f Q
+q 0.14 0.36 0.55 rg 54 522.6 3 67.6 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 577.2 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 565.2 Tm ("A fase 4 mant\351m Controller, Service e Repository, mas deixa o Spring gerenciar a cria\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 552.8 Tm (e a inje\347\343o dos objetos. O Controller publica POST e GET em /clientes. JPA mapeia Cliente) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 540.4 Tm (para uma tabela, JpaRepository fornece opera\347\365es comuns e o H2 em mem\363ria permite testar) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 528 Tm (sem configurar um servidor de banco externo.") Tj ET
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 502.6 Tm (Fase 5 - Lombok e entidades relacionadas) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 483.6 m 558 483.6 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 464.6 Tm (Objetivo: reduzir m\351todos repetitivos sem perder o entendimento do que eles fazem e) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 450.4 Tm (demonstrar constru\347\343o de objetos com v\341rios campos.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 422.2 Tm (O que o Lombok faz) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 403 Tm (Lombok processa anota\347\365es durante a compila\347\343o e gera c\363digo como getters, setters e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 390.5 Tm (construtores. Esses m\351todos existem no bytecode compilado; n\343o s\343o criados por uma l\363gica m\341gica) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 378 Tm (em tempo de execu\347\343o. A IDE pode precisar do plugin Lombok para reconhecer os m\351todos gerados) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 365.5 Tm (durante a edi\347\343o.) Tj ET
+q 0.91 0.94 0.97 rg 54 331 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 339 Tm (Anota\347\343o | C\363digo gerado ou efeito | Uso mostrado no material) Tj ET
+q 0.975 0.98 0.985 rg 54 296.2 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 317 Tm (Anota\347\343o: @Getter / @Setter | C\363digo gerado ou efeito: M\351todos de leitura e altera\347\343o de) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 305.6 Tm (campos. | Uso mostrado no material: Entidades e classes simples.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 295.2 m 558 295.2 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 285.2 Tm (Anota\347\343o: @NoArgsConstructor | C\363digo gerado ou efeito: Construtor sem argumentos. | Uso) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 273.8 Tm (mostrado no material: Entidade Cliente e Pedido.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 263.4 m 558 263.4 l S Q
+q 0.975 0.98 0.985 rg 54 232.6 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 253.4 Tm (Anota\347\343o: @AllArgsConstructor | C\363digo gerado ou efeito: Construtor com todos os campos.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 242 Tm (| Uso mostrado no material: Pedido.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 231.6 m 558 231.6 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 221.6 Tm (Anota\347\343o: @RequiredArgsConstructor | C\363digo gerado ou efeito: Construtor para campos) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 210.2 Tm (final ou @NonNull. | Uso mostrado no material: Service com reposit\363rio final.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 199.8 m 558 199.8 l S Q
+q 0.975 0.98 0.985 rg 54 169 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 189.8 Tm (Anota\347\343o: @Builder | C\363digo gerado ou efeito: API encadeada que nomeia cada valor) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 178.4 Tm (definido. | Uso mostrado no material: Cria\347\343o de Pedido.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 168 m 558 168 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 158 Tm (Anota\347\343o: @ToString | C\363digo gerado ou efeito: Gera representa\347\343o textual do objeto. |) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 146.6 Tm (Uso mostrado no material: Inclui apenas campos escolhidos.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 136.2 m 558 136.2 l S Q
+q 0.975 0.98 0.985 rg 54 94 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 126.2 Tm (Anota\347\343o: @Data | C\363digo gerado ou efeito: Combina getters/setters, toString,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 114.8 Tm (equals/hashCode e construtor requerido. | Uso mostrado no material: O PDF explica o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 103.4 Tm (atalho e os cuidados; n\343o \351 usado nas entidades do projeto.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 93 m 558 93 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 83 Tm (Anota\347\343o: @Slf4j | C\363digo gerado ou efeito: Gera um logger chamado log. | Uso mostrado) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 71.6 Tm (no material: Conceito do PDF; n\343o est\341 aplicado nas classes desta fase.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 61.2 m 558 61.2 l S Q
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (10 / 14) Tj ET
+
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 5510 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 711 Tm (Por que n\343o usar @Data automaticamente em entidades) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 691.8 Tm (Em um relacionamento bidirecional, Cliente possui uma lista de Pedidos e cada Pedido aponta de) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 679.3 Tm (volta para Cliente. Um toString\(\) que percorra os dois lados pode entrar em recurs\343o; equals e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 666.8 Tm (hashCode sobre todos os campos tamb\351m podem percorrer rela\347\365es ou acionar carregamento tardio.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 654.3 Tm (Por isso as entidades separam as anota\347\365es e controlam quais campos entram na representa\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 641.8 Tm (textual.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 618.3 Tm (O modelo implementado) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 599.1 Tm (Cliente usa @Getter, @Setter, @NoArgsConstructor e @ToString\(onlyExplicitlyIncluded = true\). Id,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 586.6 Tm (nome e idade s\343o inclu\355dos no texto; a cole\347\343o de pedidos n\343o \351. A lista \351 inicializada como) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 574.1 Tm (ArrayList.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 555.6 Tm (Pedido tamb\351m gera getters/setters, construtores vazio e completo, Builder e toString limitado a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 543.1 Tm (id, descri\347\343o, valor e data. O campo Cliente \351 uma rela\347\343o @ManyToOne\(fetch = FetchType.LAZY\);) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 530.6 Tm (do outro lado, Cliente declara @OneToMany\(mappedBy = "cliente"\). Em JPA, o lado de Pedido com) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 518.1 Tm (@ManyToOne \351 o lado dono da rela\347\343o.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 494.6 Tm (Leitura do Builder) Tj ET
+q 0.955 0.965 0.974 rg 54 404.6 504 73.8 re f Q
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 467.4 Tm (Pedido pedido = Pedido.builder\(\)) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 457.1 Tm (.descricao\("Curso de Java"\)) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 446.8 Tm (.valor\(new BigDecimal\("199.90"\)\)) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 436.5 Tm (.dataCriacao\(LocalDateTime.now\(\)\)) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 426.2 Tm (.cliente\(cliente\)) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 415.9 Tm (.build\(\);) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 393.6 Tm (O Builder deixa cada valor associado ao nome do campo e evita depender da ordem de muitos) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 381.1 Tm (argumentos posicionais. BigDecimal representa valores decimais monet\341rios com mais controle que) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 368.6 Tm (double. LocalDateTime.now\(\) captura a data e hora do momento em que o exemplo executa.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 350.1 Tm (MainLombok cria Ana, constr\363i o pedido, adiciona o pedido \340 lista de Ana e imprime ambos. H\341 uma) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 337.6 Tm (diferen\347a importante no exemplo atual: ele n\343o executa pedido.setCliente\(cliente\). Portanto, a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 325.1 Tm (lista do Cliente cont\351m o Pedido, mas a refer\352ncia inversa do Pedido ainda fica nula. Para) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 312.6 Tm (manter o objeto coerente em mem\363ria, atualizam-se os dois lados:) Tj ET
+q 0.955 0.965 0.974 rg 54 264.5 504 32.6 re f Q
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 286.1 Tm (pedido.setCliente\(cliente\);) Tj ET
+0.09 0.23 0.39 rg
+BT /F3 8 Tf 1 0 0 1 62 275.8 Tm (cliente.getPedidos\(\).add\(pedido\);) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 253.5 Tm (Al\351m disso, o programa de Lombok \351 uma demonstra\347\343o executada pelo IntelliJ, n\343o a aplica\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 241 Tm (Spring principal do JAR. O Service usa @RequiredArgsConstructor para o reposit\363rio final, mas) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 228.5 Tm (nesta fase n\343o h\341 um Controller pr\363prio nem uma classe principal Spring no pacote Lombok.) Tj ET
+q 1 0.975 0.91 rg 54 147.4 504 67.6 re f Q
+q 0.75 0.5 0.14 rg 54 147.4 3 67.6 re f Q
+0.75 0.5 0.14 rg
+BT /F2 7.2 Tf 1 0 0 1 64 202 Tm (ATENCAO) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 190 Tm (Diferen\347a entre proposta e c\363digo: o PDF recomenda considerar igualdade de entidades pelo) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 177.6 Tm (id, por exemplo com @EqualsAndHashCode\(of = "id"\), e prop\365e refatorar Service e) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 165.2 Tm (Controller. O c\363digo atual evita @Data e limita o toString\(\), mas n\343o implementa) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 152.8 Tm (equals/hashCode por id e n\343o possui Controller Lombok.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 129.4 Tm (Como explicar esta fase) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (11 / 14) Tj ET
+
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 5677 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+q 0.93 0.96 0.985 rg 54 653.4 504 67.6 re f Q
+q 0.14 0.36 0.55 rg 54 653.4 3 67.6 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 708 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 696 Tm ("Lombok gera boilerplate na compila\347\343o. Usei getters, setters e construtores nas) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 683.6 Tm (entidades; RequiredArgsConstructor mant\351m a inje\347\343o por construtor com depend\352ncia final;) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 671.2 Tm (e Builder nomeia os campos ao criar um Pedido. Evitei Data nas entidades e restringi) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 658.8 Tm (ToString para n\343o percorrer o relacionamento Cliente-Pedido.") Tj ET
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 633.4 Tm (Mapa do projeto e demonstra\347\343o) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 614.4 m 558 614.4 l S Q
+0.34 0.41 0.48 rg
+BT /F1 10.9 Tf 1 0 0 1 54 595.4 Tm (Esta se\347\343o ajuda a abrir o arquivo certo e evita confundir os exemplos de cada fase.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 567.2 Tm (Arquivos que representam cada etapa) Tj ET
+q 0.91 0.94 0.97 rg 54 532 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 540 Tm (Fase | Arquivos principais | Configura\347\343o IntelliJ) Tj ET
+q 0.975 0.98 0.985 rg 54 497.2 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 518 Tm (Fase: 0 | Arquivos principais: Fase0/Main.java, Animal.java, Cachorro.java, Gato.java |) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 506.6 Tm (Configura\347\343o IntelliJ: "Main" -> Fase0.Main) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 496.2 m 558 496.2 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 486.2 Tm (Fase: 1 | Arquivos principais: Fase1/Main.java e subpacotes Heranca, Abstracao,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 474.8 Tm (Interface, Sobrecarga e Sobrescricao | Configura\347\343o IntelliJ: "Fase1" -> Fase1.Main; h\341) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 463.4 Tm (configura\347\365es adicionais por t\363pico) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 453 m 558 453 l S Q
+q 0.975 0.98 0.985 rg 54 422.2 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 443 Tm (Fase: 2 | Arquivos principais: Fase2/Maven/Main.java, pom.xml | Configura\347\343o IntelliJ:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 431.6 Tm ("Fase2 - Maven" -> Fase2.Maven.Main) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 421.2 m 558 421.2 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 411.2 Tm (Fase: 3 | Arquivos principais: Fase3/MVC/MainMVC.java e classes Cliente* | Configura\347\343o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 399.8 Tm (IntelliJ: "Fase3 - MVC" -> Fase3.MVC.MainMVC) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 389.4 m 558 389.4 l S Q
+q 0.975 0.98 0.985 rg 54 347.2 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 379.4 Tm (Fase: 4 | Arquivos principais: AplicacaoSpringBoot.java, Controller, Service,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 368 Tm (Repository, Model e application.properties | Configura\347\343o IntelliJ: "Fase4 - Spring) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 356.6 Tm (Boot") Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 346.2 m 558 346.2 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 336.2 Tm (Fase: 5 | Arquivos principais: Fase5/Lombok/MainLombok.java, Model, Service e Repository) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 324.8 Tm (| Configura\347\343o IntelliJ: "Fase5 - Lombok" -> Fase5.Lombok.MainLombok) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 314.4 m 558 314.4 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 297.4 Tm (Roteiro de demonstra\347\343o em seis passos) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 277.2 Tm (Fase 0: execute os sons dos animais e explique tipo declarado versus tipo real.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 277.2 Tm (1.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 260.6 Tm (Fase 1: mostre Fase1.Main; apresente abstrata/interface e compare overload com override.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 260.6 Tm (2.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 244 Tm (Fase 2: abra o POM e execute a classe que usa StringUtils.isBlank.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 244 Tm (3.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 227.4 Tm (Fase 3: percorra Controller -> Service -> Repository; cadastre um maior e tente um menor.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 227.4 Tm (4.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 210.8 Tm (Fase 4: suba a aplica\347\343o, envie POST com JSON e consulte GET em localhost:8080/clientes.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 210.8 Tm (5.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 194.2 Tm (Fase 5: execute MainLombok e explique o Builder e as anota\347\365es geradas.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 9.6 Tf 1 0 0 1 56 194.2 Tm (6.) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 178.6 Tm (Para a demonstra\347\343o HTTP, inicie somente a configura\347\343o da fase 4 e aguarde o servidor ficar) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 166.1 Tm (pronto antes de chamar a rota. O banco H2 \351 reiniciado junto com o processo.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 142.6 Tm (Roteiro oral de aproximadamente quatro minutos) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (12 / 14) Tj ET
+
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 6941 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+q 0.93 0.96 0.985 rg 54 566.6 504 154.4 re f Q
+q 0.14 0.36 0.55 rg 54 566.6 3 154.4 re f Q
+0.14 0.36 0.55 rg
+BT /F2 7.2 Tf 1 0 0 1 64 708 Tm (FALA SUGERIDA) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 696 Tm ("Comecei configurando Java 21 e Maven no IntelliJ e verificando que eu conseguia executar) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 683.6 Tm (um main. Em seguida pratiquei orienta\347\343o a objetos: heran\347a reutiliza comportamento,) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 671.2 Tm (abstra\347\343o define o que as subclasses precisam implementar, interfaces definem) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 658.8 Tm (capacidades, overload escolhe pela lista de par\342metros e override redefine uma) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 646.4 Tm (implementa\347\343o. Depois usei Maven para declarar e resolver bibliotecas. Na fase MVC) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 634 Tm (separei dados, entrada, regra e armazenamento, com valida\347\343o no Service e um Repository) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 621.6 Tm (em mem\363ria. Na fase seguinte mantive essas responsabilidades e usei Spring Boot para) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 609.2 Tm (criar os beans, expor POST e GET, converter JSON e persistir Cliente com JPA no H2. Por) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 596.8 Tm (fim usei Lombok para gerar m\351todos repetitivos e Builder para construir Pedido de forma) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 584.4 Tm (leg\355vel. Cada etapa acrescenta uma ferramenta ou uma forma de organiza\347\343o sem apagar o) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 572 Tm (fundamento aprendido antes.") Tj ET
+0.09 0.23 0.39 rg
+BT /F2 20.5 Tf 1 0 0 1 54 546.6 Tm (Perguntas que podem aparecer) Tj ET
+q 0.19 0.63 0.66 RG 1.6 w 54 527.6 m 558 527.6 l S Q
+q 0.91 0.94 0.97 rg 54 492.6 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 500.6 Tm (Pergunta | Resposta curta e correta) Tj ET
+q 0.975 0.98 0.985 rg 54 446.4 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 478.6 Tm (Pergunta: Por que uma vari\341vel Animal pode emitir "Latido"? | Resposta curta e correta:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 467.2 Tm (Porque ela referencia um objeto Cachorro; o m\351todo sobrescrito \351 escolhido pelo tipo) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 455.8 Tm (real durante a execu\347\343o.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 445.4 m 558 445.4 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 435.4 Tm (Pergunta: Qual a diferen\347a entre classe abstrata e interface? | Resposta curta e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 424 Tm (correta: A classe abstrata pode compartilhar estado e c\363digo-base, al\351m de exigir) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 412.6 Tm (m\351todos. A interface define capacidades/contratos e uma classe pode implementar v\341rias.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 402.2 m 558 402.2 l S Q
+q 0.975 0.98 0.985 rg 54 360 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 392.2 Tm (Pergunta: Como diferenciar overload de override? | Resposta curta e correta: Overload) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 380.8 Tm (mant\351m o nome e muda par\342metros. Override preserva assinatura herdada e troca a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 369.4 Tm (implementa\347\343o na subclasse.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 359 m 558 359 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 349 Tm (Pergunta: Por que validar no Service? | Resposta curta e correta: Porque a regra deve) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 337.6 Tm (valer para qualquer ponto de entrada; se ficasse no Controller, outro fluxo precisaria) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 326.2 Tm (duplic\341-la.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 315.8 m 558 315.8 l S Q
+q 0.975 0.98 0.985 rg 54 273.6 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 305.8 Tm (Pergunta: O que muda da fase 3 para a 4? | Resposta curta e correta: Na fase 3 a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 294.4 Tm (montagem \351 manual e o Repository usa mapa. Na fase 4 o Spring injeta depend\352ncias, o) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 283 Tm (Controller atende HTTP e o Spring Data JPA usa H2.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 272.6 m 558 272.6 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 262.6 Tm (Pergunta: O dado do H2 permanece ap\363s reiniciar? | Resposta curta e correta: N\343o. A URL) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 251.2 Tm (usa H2 em mem\363ria e o esquema est\341 configurado como create-drop.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 240.8 m 558 240.8 l S Q
+q 0.975 0.98 0.985 rg 54 198.6 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 230.8 Tm (Pergunta: O projeto tem todos os endpoints CRUD? | Resposta curta e correta: N\343o. A API) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 219.4 Tm (implementa POST para cadastrar e GET para listar. Atualiza\347\343o e remo\347\343o aparecem como) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 208 Tm (conceitos no PDF, n\343o no c\363digo atual.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 197.6 m 558 197.6 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 187.6 Tm (Pergunta: O que @RequestBody faz? | Resposta curta e correta: Recebe o corpo da) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 176.2 Tm (requisi\347\343o e converte o JSON para um objeto Java antes de chamar o m\351todo do Controller.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 165.8 m 558 165.8 l S Q
+q 0.975 0.98 0.985 rg 54 123.6 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 155.8 Tm (Pergunta: Lombok cria m\351todos durante a execu\347\343o? | Resposta curta e correta: N\343o. O) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 144.4 Tm (processador de anota\347\365es gera c\363digo durante a compila\347\343o, que fica no bytecode) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 133 Tm (resultante.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 122.6 m 558 122.6 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 112.6 Tm (Pergunta: Por que evitar @Data em entidades relacionadas? | Resposta curta e correta:) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 101.2 Tm (Porque equals/hashCode e toString sobre todos os campos podem percorrer rela\347\365es) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 89.8 Tm (bidirecionais, causando recurs\343o ou carregamento inesperado.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 79.4 m 558 79.4 l S Q
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (13 / 14) Tj ET
+
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 5717 >>
+stream
+0.34 0.41 0.48 rg
+BT /F2 7.5 Tf 1 0 0 1 54 758 Tm (GUIA DE ESTUDOS  |  JAVA) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.2 Tf 1 0 0 1 472 758 Tm (FASES 0-5) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 748 m 558 748 l S Q
+q 0.975 0.98 0.985 rg 54 676.8 504 43.2 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 709 Tm (Pergunta: O relacionamento de MainLombok est\341 completo? | Resposta curta e correta: A) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 697.6 Tm (lista Cliente.pedidos \351 atualizada, mas pedido.cliente n\343o. Para coer\352ncia em mem\363ria,) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 686.2 Tm (deve-se atribuir a refer\352ncia nos dois lados.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 675.8 m 558 675.8 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 665.8 Tm (Pergunta: Qual aplica\347\343o o JAR inicia? | Resposta curta e correta: O POM configura) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 654.4 Tm (Fase4.SpringBoot.AplicacaoSpringBoot como classe principal do plugin Spring Boot.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 644 m 558 644 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 627 Tm (Estado atual e melhorias poss\355veis) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 607.8 Tm (As fases demonstrativas usam m\351todos main e chamadas manuais; n\343o foi encontrada uma su\355te) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 595.3 Tm (automatizada em src/test. A fase 3 armazena dados somente em mem\363ria. A fase 4 ainda n\343o tem GET) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 582.8 Tm (por id, atualiza\347\343o, remo\347\343o, valida\347\343o declarativa nem handler de erros. Na fase 5, a) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 570.3 Tm (associa\347\343o do exemplo deve ser sincronizada nos dois lados se for usada para persist\352ncia. Esses) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.7 Tf 1 0 0 1 54 557.8 Tm (pontos s\343o pr\363ximos passos; n\343o alteram o que cada fase j\341 demonstra.) Tj ET
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 534.3 Tm (Gloss\341rio r\341pido) Tj ET
+q 0.91 0.94 0.97 rg 54 499.1 504 21 re f Q
+0.09 0.23 0.39 rg
+BT /F2 8.5 Tf 1 0 0 1 60 507.1 Tm (Termo | Significado) Tj ET
+q 0.975 0.98 0.985 rg 54 475.7 504 20.4 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 485.1 Tm (Termo: Bean | Significado: Objeto criado e gerenciado pelo Spring.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 474.7 m 558 474.7 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 464.7 Tm (Termo: Inje\347\343o de depend\352ncia | Significado: Entrega de uma depend\352ncia necess\341ria a uma) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 453.3 Tm (classe, por exemplo pelo construtor.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 442.9 m 558 442.9 l S Q
+q 0.975 0.98 0.985 rg 54 412.1 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 432.9 Tm (Termo: JAR | Significado: Pacote Java que re\372ne classes e recursos para) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 421.5 Tm (distribui\347\343o/execu\347\343o.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 411.1 m 558 411.1 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 401.1 Tm (Termo: JPA | Significado: Especifica\347\343o Java para mapear objetos a tabelas relacionais.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 390.7 m 558 390.7 l S Q
+q 0.975 0.98 0.985 rg 54 359.9 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 380.7 Tm (Termo: Polimorfismo | Significado: Uso de um tipo comum com comportamentos diferentes) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 369.3 Tm (conforme o objeto concreto.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 358.9 m 558 358.9 l S Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 348.9 Tm (Termo: Boilerplate | Significado: C\363digo repetitivo de estrutura, como getters e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 337.5 Tm (construtores.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 327.1 m 558 327.1 l S Q
+q 0.975 0.98 0.985 rg 54 296.3 504 31.8 re f Q
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 317.1 Tm (Termo: DTO | Significado: Objeto usado para transportar dados entre partes de um) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 8.45 Tf 1 0 0 1 60 305.7 Tm (sistema; o projeto atual recebe a pr\363pria entidade no POST.) Tj ET
+q 0.88 0.91 0.94 RG 0.4 w 54 295.3 m 558 295.3 l S Q
+0.14 0.36 0.55 rg
+BT /F2 13.3 Tf 1 0 0 1 54 278.3 Tm (Materiais analisados) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 258.1 Tm (fases_PDF/fase0-intellij 1.pdf at\351 fases_PDF/fase5-lombok.pdf - 28 p\341ginas ao todo.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 258.1 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 241.5 Tm (C\363digo em src/main/java/Fase0 a Fase5, respectivos READMEs, pom.xml e) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 228.9 Tm (src/main/resources/application.properties.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 241.5 Tm (-) Tj ET
+0.14 0.2 0.27 rg
+BT /F1 9.6 Tf 1 0 0 1 72 212.3 Tm (Configura\347\365es de execu\347\343o do IntelliJ em .idea/runConfigurations.) Tj ET
+0.14 0.36 0.55 rg
+BT /F1 9.6 Tf 1 0 0 1 56 212.3 Tm (-) Tj ET
+q 0.93 0.97 0.975 rg 54 146.5 504 55.2 re f Q
+q 0.19 0.63 0.66 rg 54 146.5 3 55.2 re f Q
+0.19 0.63 0.66 rg
+BT /F2 7.2 Tf 1 0 0 1 64 188.7 Tm (PONTO-CHAVE) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 176.7 Tm (Para encerrar a apresenta\347\343o: retome a progress\343o da trilha - primeiro executar, depois) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 164.3 Tm (modelar, organizar depend\352ncias, separar responsabilidades, expor uma API e reduzir) Tj ET
+0.14 0.2 0.27 rg
+BT /F4 9.1 Tf 1 0 0 1 64 151.9 Tm (c\363digo repetitivo.) Tj ET
+q 0.82 0.87 0.91 RG 0.7 w 54 42 m 558 42 l S Q
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 54 28 Tm (JAVA | FASES 0-5) Tj ET
+0.34 0.41 0.48 rg
+BT /F1 7.3 Tf 1 0 0 1 500 28 Tm (14 / 14) Tj ET
+
+endstream
+endobj
+35 0 obj
+<< /Title (Guia de Estudos Java - Fases 0 a 5) /Subject (Resumo e roteiro de apresentacao do projeto) /Author (Material de estudo) >>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000220 00000 n 
+0000000317 00000 n 
+0000000419 00000 n 
+0000000514 00000 n 
+0000000619 00000 n 
+0000000775 00000 n 
+0000002133 00000 n 
+0000002290 00000 n 
+0000007725 00000 n 
+0000007883 00000 n 
+0000013549 00000 n 
+0000013707 00000 n 
+0000019600 00000 n 
+0000019758 00000 n 
+0000025943 00000 n 
+0000026101 00000 n 
+0000031815 00000 n 
+0000031973 00000 n 
+0000037866 00000 n 
+0000038024 00000 n 
+0000044021 00000 n 
+0000044179 00000 n 
+0000050560 00000 n 
+0000050718 00000 n 
+0000057183 00000 n 
+0000057341 00000 n 
+0000062904 00000 n 
+0000063062 00000 n 
+0000068792 00000 n 
+0000068950 00000 n 
+0000075944 00000 n 
+0000076102 00000 n 
+0000081872 00000 n 
+trailer
+<< /Size 36 /Root 1 0 R /Info 35 0 R >>
+startxref
+82022
+%%EOF

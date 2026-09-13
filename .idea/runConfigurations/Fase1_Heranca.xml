@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" type="Application" factoryName="Application" name="Fase1 - Herança">
+    <option name="MAIN_CLASS_NAME" value="Fase1.Heranca.MainHeranca" />
+    <module name="estudos-java" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

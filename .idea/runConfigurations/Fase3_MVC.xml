@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Fase3 - MVC" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Fase3.MVC.MainMVC" />
+    <module name="estudos-java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
